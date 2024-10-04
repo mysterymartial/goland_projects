@@ -48,10 +48,12 @@ func main() {
 	pet2 := Animal{Pet: animal2}
 	pet3 := Animal{Pet: animal3}
 	pet4 := Animal{Pet: animal4}
+	child := Animal{Pet: animal5}
 
 	pet1.Sound()
 	pet2.Sound()
 	pet3.Sound()
 	pet4.Sound()
+	child.Sound()
 
 }
